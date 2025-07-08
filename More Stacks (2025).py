@@ -41,22 +41,21 @@ def generate_md_from_dict(data: dict, source_file="More Stacks (2025).py", outpu
 First, 
 
 Read 'Modding Instructions.pdf' in the game root directory.
-Create a new mod:
+"""
 
-mod name: 
-More Stacks (2025)
 
-mod description:
+# Create a new mod:
+
+mod_name = "More Stacks (2025)"
+mod_description = """
 Many mods on steam workshop don't work now.
 I decide to write one.
 
 ** In short: Most items can now stack 100 times as much as before. **
 
-For more details, see https://github.com/wqs-s-mods/This-War-of-Mine/blob/main/More%20Stacks%20(2025).md
+For more details, see https://github.com/wqs-s-mods/This-War-of-Mine/blob/main/More%20Stacks%20(2025).md"""
+mod_picture = "More Stacks.jpg"
 
-mod picture:
-More Stacks.jpg
-"""
 
 ##############################################
 # Before running this script, make sure you have the following:
@@ -111,7 +110,7 @@ modified_items = [
     "Water",
     "WeaponParts",
     "Wood",
-    
+    "ElectricParts"
 
 
 ]
